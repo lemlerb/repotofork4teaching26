@@ -20,3 +20,10 @@ else:
     # Matrix ausgeben
     print("Matrix A: \n[1, 4 \n3, 2]")
     print("Matrix B. \n[3, 1 \n4, 2]")
+
+    ergebnis = int(input("Welche Zahl steht im Ergebnis oben rechts?"))
+    # Überprüfung der Antwort
+    if ergebnis == 12:
+        print("Hast du seit dem letzten Mal nochmal geübt? \nDie Lösung ist richtig! Du bist draußen!")
+    else:
+        print("Also entweder war deine Eingabe fehlerhaft. \nOder du solltest nochmal üben!")
