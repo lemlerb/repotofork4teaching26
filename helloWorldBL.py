@@ -6,3 +6,13 @@
 # commitment :-) 
 
 print("Hello Gianpaolo!")
+
+print("Lass uns ein Spiel spielen! \nDeine Aufgabe: Finde den Ausgang!")
+
+weg = input("Du kannst dich entscheiden.\nEntweder oben; unten; links oder rechts. \nGebe nur das passende Wort ein (kleingeschrieben)! \n")
+
+if weg != "rechts":
+    print("Du bist direkt falsch abgebogen. Das war wohl nichts :(")
+else:
+    print("Das war die goldrichtige Entscheidung!")
+    
