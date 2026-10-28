@@ -3,7 +3,7 @@
 # add it to git, push it and then ask for a Pull Request to my repo/upstream
 # TL;DR: the only change to my repo should be a new helloWorldXX.py file with your name,
 # nothing more ... but change a bit the content of this renamed file, to show some 
-# commitment :-) 
+# commitment :-)
 
 print("Hello Gianpaolo!")
 
@@ -15,4 +15,8 @@ if weg != "rechts":
     print("Du bist direkt falsch abgebogen. Das war wohl nichts :(")
 else:
     print("Das war die goldrichtige Entscheidung!")
-    
+    print("Als nächstes musst du eine Matrix lösen - dot product")
+
+    # Matrix ausgeben
+    print("Matrix A: \n[1, 4 \n3, 2]")
+    print("Matrix B. \n[3, 1 \n4, 2]")
